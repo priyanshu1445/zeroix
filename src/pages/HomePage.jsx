@@ -7,6 +7,8 @@ import FAQs from '../components/Faqs'
 import GetInTouch from '../components/GetInTouch'
 import WhyChooseUs from '../components/WhyChooseUs'
 import Footer from '../components/Footer'
+import NewsletterSection from '../components/NewsletterSection'
+import SupportSection from '../components/SupportSection'
 
 const HomePage = () => {
   return (
@@ -16,8 +18,10 @@ const HomePage = () => {
       <AboutSection/> 
       <WhyChooseUs />
       <Services/>
+      <NewsletterSection/>
       <GetInTouch />
       <FAQs/>
+      <SupportSection/>
       <Footer />
     </div>
   )

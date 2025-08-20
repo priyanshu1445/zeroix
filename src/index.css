@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+*{
+  scroll-behavior: smooth;
+}
 
 @keyframes fadeSlideUp {
   0% {
